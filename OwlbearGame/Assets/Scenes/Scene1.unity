@@ -4205,7 +4205,22 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &797541307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797541301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c766a680082781741b95cd0aa9b0e18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 150
+  jumpForce: 400
+  maxVelocityX: 4
+  soundEffect: {fileID: 0}
 --- !u!1 &798442771
 GameObject:
   m_ObjectHideFlags: 0
@@ -10343,6 +10358,11 @@ Prefab:
     - target: {fileID: 4591672376247166, guid: 959397d398165264e87de30af4534167, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95473089763054776, guid: 959397d398165264e87de30af4534167,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 959397d398165264e87de30af4534167, type: 2}
