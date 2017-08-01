@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1038
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -138,7 +138,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,9 +322,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.176625, y: 3.4059837, z: 0}
+    m_Target: {x: -0.740087, y: 3.1532526, z: 0}
     speed: 2
-    m_Value: {x: 1.176625, y: 3.4059837, z: 0}
+    m_Value: {x: -0.740087, y: 3.1532526, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -351,9 +351,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.865752
+    m_Target: 8.582375
     speed: 2
-    m_Value: 11.865752
+    m_Value: 8.582375
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -468,14 +468,14 @@ MonoBehaviour:
     height: 967
   m_ViewPositions:
     m_KeySerializationHelper:
-    - {fileID: 1107184832302872434, guid: 830a3dc43842d0d4ab1a47951f2584c0, type: 2}
+    - {fileID: 1107204693419601104, guid: 8304b37ae16875f4ebcb354c3333ecde, type: 2}
     m_ValueSerializationHelper:
     - {x: 555.60004, y: 560.2}
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 830a3dc43842d0d4ab1a47951f2584c0,
+  m_AnimatorController: {fileID: 9100000, guid: 8304b37ae16875f4ebcb354c3333ecde,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107184832302872434, guid: 830a3dc43842d0d4ab1a47951f2584c0,
+  - m_Target: {fileID: 1107204693419601104, guid: 8304b37ae16875f4ebcb354c3333ecde,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -545,9 +545,9 @@ MonoBehaviour:
     height: 567
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce2d0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffff00000000
+    m_SelectedIDs: ccefffff
+    m_LastClickedID: -4148
+    m_ExpandedIDs: 14f6ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,7 +596,7 @@ MonoBehaviour:
     y: 91
     width: 524
     height: 567
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 555.9551}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -671,19 +671,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefab
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kirby\Documents\GitHub\OwlbearGame\OwlbearGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 118}
-    m_SelectedIDs: 4a260000
-    m_LastClickedID: 9802
-    m_ExpandedIDs: 000000009e2400000626000054260000e4260000022700003c27000010280000562800008a280000ac280000062e0000082e00000a2e00000c2e00000e2e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 8e280000
+    m_LastClickedID: 10382
+    m_ExpandedIDs: 0000000080260000f8270000742800008e280000b82800006e290000fa290000142f0000162f0000182f00001a2f00001c2f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e2400000626000054260000e4260000022700003c27000010280000562800008a280000ac280000062e0000082e00000a2e00000c2e00000e2e0000
+    m_ExpandedIDs: 0000000080260000f8270000742800008e2800006e290000ac290000fa290000142f0000162f0000182f00001a2f00001c2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ba260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

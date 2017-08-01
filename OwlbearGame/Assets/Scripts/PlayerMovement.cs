@@ -7,13 +7,11 @@ public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D rb;
 	private Animator an;
 
-	public float movementSpeed = 150f;
+	public float movementSpeed = 10f;
 	public float jumpForce = 400f;
 	public float maxVelocityX = 4f;
 
-	private bool Grounded;
-
-	public AudioClip soundEffect;
+	public bool Grounded;
 
 	void Start () {
 		//Get components
@@ -23,7 +21,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	void FixedUpdate () {
 
-		//Force to be appllied	
+		//Force to be applied
 		var force = new Vector2(0f, 0f);
 
 		//Get controls for horizontal movement
@@ -36,8 +34,7 @@ public class PlayerMovement : MonoBehaviour {
 		//Check if on ground
 		if (absVelocityY == 0) {
 			Grounded = true;
-		}
-		else {
+		} else {
 			Grounded = false;
 		}
 
@@ -48,9 +45,6 @@ public class PlayerMovement : MonoBehaviour {
 
 		//Jump if grounded and button pressed
 		if (Grounded == true && Input.GetButton("Jump")) {
-			if (soundEffect) {
-				AudioSource.PlayClipAtPoint (soundEffect, transform.position);
-			}
 			Grounded = false;
 			force.y = jumpForce;
 			an.SetInteger ("AnimState", 2);
@@ -60,21 +54,19 @@ public class PlayerMovement : MonoBehaviour {
 		rb.AddForce(force);
 
 		//Alter player direction
-		if (moveHorizontal > 0) {
+		if(moveHorizontal > 0) {
 			//print ("Right");
-			transform.localScale = new Vector3(1, 1, 1);
+			transform.localScale = new Vector3(1,1,1);
 			if (Grounded) {
 				an.SetInteger ("AnimState", 1);
 			}
-		}
-		else if (moveHorizontal < 0) {
-			//print ("Left");
-			transform.localScale = new Vector3(-1, 1, 1);
+		} else if (moveHorizontal < 0) {
+			//print ('Left');
+			transform.localScale = new Vector3(-1,1,1);
 			if (Grounded) {
 				an.SetInteger ("AnimState", 1);
 			}
-		}
-		else {
+		} else {
 			//print ("Still");
 			if (Grounded) {
 				an.SetInteger ("AnimState", 0);
