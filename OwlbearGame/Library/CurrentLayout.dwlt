@@ -322,9 +322,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.8441806, y: 1.7243629, z: 0}
+    m_Target: {x: 21.215912, y: 3.4844804, z: 0}
     speed: 2
-    m_Value: {x: 1.8441806, y: 1.7243629, z: 0}
+    m_Value: {x: 21.215912, y: 3.4844804, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -351,9 +351,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.780777
+    m_Target: 18.638142
     speed: 2
-    m_Value: 15.780777
+    m_Value: 18.638142
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -388,7 +388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 91
-    width: 966
+    width: 968
     height: 967
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -398,8 +398,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -483
-    m_HBaseRangeMax: 483
+    m_HBaseRangeMin: -484
+    m_HBaseRangeMax: 484
     m_VBaseRangeMin: -475
     m_VBaseRangeMax: 475
     m_HAllowExceedBaseRangeMin: 1
@@ -418,25 +418,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 966
+      width: 968
       height: 950
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 483, y: 475}
+    m_Translation: {x: 484, y: 475}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -483
+      x: -484
       y: -475
-      width: 966
+      width: 968
       height: 950
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 966, y: 967}
+  m_LastWindowPixelSize: {x: 968, y: 967}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -544,10 +544,10 @@ MonoBehaviour:
     width: 422
     height: 567
   m_TreeViewState:
-    scrollPos: {x: 0, y: 148}
-    m_SelectedIDs: 082f0000
-    m_LastClickedID: 12040
-    m_ExpandedIDs: 10f5ffffb2faffff00000000de2a0000342b00002a2f0000
+    scrollPos: {x: 0, y: 1850}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 36c7ffff82c9ffff16e5ffff6ef8ffffe6fbffff00000000f82c0000b42e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -680,10 +680,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\Kirby\Documents\GitHub\OwlbearGame\OwlbearGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 10}
-    m_SelectedIDs: a4270000
-    m_LastClickedID: 10148
-    m_ExpandedIDs: 000000006c2500000427000086270000a4270000d6270000a0280000e228000038290000e8300000ea300000ec300000ee300000f030000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 04270000
+    m_LastClickedID: 9988
+    m_ExpandedIDs: 00000000a224000050260000e2260000042700003a270000102800005c280000b4280000a0300000a2300000a4300000a6300000a830000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c2500000427000086270000a4270000d6270000a0280000e228000038290000e8300000ea300000ec300000ee300000f0300000
+    m_ExpandedIDs: 00000000a224000050260000e2260000042700003a270000102800005c280000b4280000a0300000a2300000a4300000a6300000a8300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
