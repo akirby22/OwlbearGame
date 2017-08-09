@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 23
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,9 +322,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.10058257, y: 1.4781288, z: 0}
+    m_Target: {x: -0.183511, y: 1.8793875, z: 0}
     speed: 2
-    m_Value: {x: -0.10058257, y: 1.4781288, z: 0}
+    m_Value: {x: -0.183511, y: 1.8793875, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -351,9 +351,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.460179
+    m_Target: 13.745305
     speed: 2
-    m_Value: 14.460179
+    m_Value: 13.745305
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -545,9 +545,9 @@ MonoBehaviour:
     height: 567
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 38250000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 92f6ffffa0f9ffff42faffffe6fbffff00000000
+    m_SelectedIDs: d2a2ffff
+    m_LastClickedID: -23854
+    m_ExpandedIDs: 42faffffe6fbfffff4ffffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,19 +671,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Artwork/Background/DaytimeScenery
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Artwork/Background/DaytimeScenery
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kirby\Documents\GitHub\OwlbearGame\OwlbearGame
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 42}
-    m_SelectedIDs: 68280000
-    m_LastClickedID: 10344
-    m_ExpandedIDs: 00000000a424000058260000ea2600000c270000422700001c28000068280000a4280000c4280000783400007a3400007c3400007e3400008034000000ca9a3bffffff7f
+    m_SelectedIDs: 50260000
+    m_LastClickedID: 9808
+    m_ExpandedIDs: 00000000a42400005a260000ec2600000e270000442700001e2800006a280000a8280000c82800008434000086340000883400008a3400008c34000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a424000058260000ea2600000c270000422700001c28000068280000a4280000c4280000783400007a3400007c3400007e34000080340000
+    m_ExpandedIDs: 00000000a42400005a260000ec2600000e270000442700001e2800006a280000a8280000c82800008434000086340000883400008a3400008c340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
