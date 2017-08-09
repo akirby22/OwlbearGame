@@ -1962,7 +1962,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 124681875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.307348, y: 6.584984, z: 0}
+  m_LocalPosition: {x: 22.307348, y: 6.545, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740967684}
@@ -6987,6 +6987,16 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114940853181758320, guid: d0e532e1aa68bd34db28e321104ce8a7,
+        type: 2}
+      propertyPath: layers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114940853181758320, guid: d0e532e1aa68bd34db28e321104ce8a7,
+        type: 2}
+      propertyPath: layerSpeeds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4760303082199492, guid: d0e532e1aa68bd34db28e321104ce8a7, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.8
@@ -7019,6 +7029,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114940853181758320, guid: d0e532e1aa68bd34db28e321104ce8a7,
+        type: 2}
+      propertyPath: layerSpeeds.Array.data[0]
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114940853181758320, guid: d0e532e1aa68bd34db28e321104ce8a7,
+        type: 2}
+      propertyPath: layers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1142159775}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0e532e1aa68bd34db28e321104ce8a7, type: 2}
   m_IsPrefabParent: 0
@@ -10836,7 +10856,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 690271546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.592348, y: 2.6999836, z: 0}
+  m_LocalPosition: {x: 23.592, y: 2.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740967684}
@@ -15807,7 +15827,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1002208129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.592348, y: 3.9799838, z: 0}
+  m_LocalPosition: {x: 23.592, y: 3.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740967684}
@@ -17569,7 +17589,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1105814019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.307348, y: 5.294984, z: 0}
+  m_LocalPosition: {x: 22.307, y: 5.265, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740967684}
@@ -17913,6 +17933,11 @@ Transform:
   m_Father: {fileID: 1740967684}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1142159775 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1350141387214748, guid: d0e532e1aa68bd34db28e321104ce8a7,
+    type: 2}
+  m_PrefabInternal: {fileID: 464183222}
 --- !u!4 &1143786070 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4605561237889994, guid: c41d508b1447d0949bd8548509ad3450,
@@ -18524,7 +18549,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1189854860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.592348, y: 1.4199839, z: 0}
+  m_LocalPosition: {x: 23.592, y: 1.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740967684}
@@ -20543,11 +20568,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4877090204403198, guid: 7171aff7165fbf64b9d119a4b93d7fad, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.8315
+      value: 1.8356
       objectReference: {fileID: 0}
     - target: {fileID: 4877090204403198, guid: 7171aff7165fbf64b9d119a4b93d7fad, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.040468
+      value: -0.04667
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7171aff7165fbf64b9d119a4b93d7fad, type: 2}
