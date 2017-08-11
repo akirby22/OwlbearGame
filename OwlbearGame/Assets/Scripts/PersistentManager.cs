@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using UnityEngine.SceneManagement;
@@ -20,13 +20,41 @@ public class PersistentManager : MonoBehaviour {
 		if(dataStore == null) {
 			DontDestroyOnLoad (gameObject);
 			dataStore = this;
+			Load();
 		} else if (dataStore != this) {
 			Destroy (gameObject);
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	//Saving and loading
+	public void Save() {
+
+		BinaryFormatter bf = new BinaryFormatter ();
+		FileStream file = File.Create (Application.persistentDataPath + "/GameData.dat");
+
+		GameData data = new GameData ();
+		data.gemsCollectedTotal = gemscollected;
+		data.highestLevel = highestLevelCompleted;
+
+		bf.Serialize (file, data);
+		file.Close();
 	}
+
+	public void Load() {
+		if (File.Exists (Application.persistentDataPath + "/GameData.dat")) {
+			BinaryFormatter bf = new BinaryFormatter ();
+			FileStream file = File.Open (Application.persistentDataPath + "/GameData.dat", FileMode.Open);
+			GameData data = (GameData)bf.Deserialize (file);
+			file.Close ();
+
+			gemscollected = data.gemsCollectedTotal;
+			highestLevelCompleted = data.highestLevel;
+		}
+	}
+}
+
+[Serializable]
+class GameData {
+	public int gemsCollectedTotal;
+	public int highestLevel;
 }
