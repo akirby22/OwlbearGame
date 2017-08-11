@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1038
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -138,7 +138,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 4
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,9 +322,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6627827, y: 2.0875113, z: 0}
+    m_Target: {x: -1.6515067, y: 3.4857152, z: 0}
     speed: 2
-    m_Value: {x: -1.6627827, y: 2.0875113, z: 0}
+    m_Value: {x: -1.6515067, y: 3.4857152, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -351,9 +351,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.302318
+    m_Target: 7.6379695
     speed: 2
-    m_Value: 12.302318
+    m_Value: 7.6379695
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -545,9 +545,9 @@ MonoBehaviour:
     height: 567
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffff00000000
+    m_SelectedIDs: c6f0ffff
+    m_LastClickedID: -3898
+    m_ExpandedIDs: d6f1ffff3cfaffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,19 +671,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Prefab
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kirby\Documents\GitHub\OwlbearGame\OwlbearGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 74}
-    m_SelectedIDs: a6240000
-    m_LastClickedID: 9382
-    m_ExpandedIDs: 00000000a62400005c260000ee2600001027000046270000202800006c280000aa280000ca280000923400009434000096340000983400009a34000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 28270000
+    m_LastClickedID: 10024
+    m_ExpandedIDs: 00000000a62400006c2600000427000028270000642700009e280000e228000004290000d0340000d2340000d4340000d6340000d834000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a62400005c260000ee2600001027000046270000202800006c280000aa280000ca280000923400009434000096340000983400009a340000
+    m_ExpandedIDs: 00000000a62400006c2600000427000028270000642700004c2800009e280000e228000004290000d0340000d2340000d4340000d6340000d8340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ba260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
