@@ -322,9 +322,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.8286798, y: 0.41828308, z: 0}
+    m_Target: {x: -1.4447309, y: 1.3786061, z: 0}
     speed: 2
-    m_Value: {x: -1.8286798, y: 0.41828308, z: 0}
+    m_Value: {x: -1.4447309, y: 1.3786061, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -351,9 +351,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.813751
+    m_Target: 15.552495
     speed: 2
-    m_Value: 8.813751
+    m_Value: 15.552495
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -547,7 +547,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: aaecffffecedffffe6fbffff00000000
+    m_ExpandedIDs: 060affffb813ffff6815ffff2219ffff4219ffffee2afffff22affffa22cffffea5bffff6a8dffff9ed6ffff72f8ffffe6f8ffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,19 +671,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Artwork/Background/NighttimeScenery/Tiles
+    - Assets/Artwork/Background/NighttimeScenery
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Artwork/Background/NighttimeScenery/Tiles
+  - Assets/Artwork/Background/NighttimeScenery
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kirby\Documents\GitHub\OwlbearGame\OwlbearGame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: 16290000
-    m_LastClickedID: 10518
-    m_ExpandedIDs: 00000000a824000070260000082700002c2700006827000050280000a2280000e628000008290000fc340000fe34000000350000023500000435000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 74}
+    m_SelectedIDs: e8280000
+    m_LastClickedID: 10472
+    m_ExpandedIDs: 00000000a8240000722600000a2700002e2700006a27000052280000a4280000e82800000a290000ae300000b0300000b2300000b4300000b630000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a824000070260000082700002c27000068270000a2280000e628000008290000fc340000fe340000003500000235000004350000
+    m_ExpandedIDs: 00000000a8240000722600000a2700002e2700006a27000052280000a4280000e82800000a290000ae300000b0300000b2300000b4300000b6300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
