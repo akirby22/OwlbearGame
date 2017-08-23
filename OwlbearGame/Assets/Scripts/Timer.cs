@@ -26,6 +26,6 @@ public class Timer : MonoBehaviour {
 	}
 
 	void endGameWithFailure() {
-		
+		PersistentManager.dataStore.endGameWithLoss ();
 	}
 }

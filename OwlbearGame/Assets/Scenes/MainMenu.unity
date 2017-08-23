@@ -576,6 +576,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc8c2f5674816904a8f7de9778234880, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1787180425
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.183511
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.8793875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649188004884816, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d8047b5f12b88d34194849db6789e8ca, type: 2}
+  m_IsPrefabParent: 0
 --- !u!224 &1791828476 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224613353486399688, guid: fc8c2f5674816904a8f7de9778234880,
